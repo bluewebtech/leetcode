@@ -4,7 +4,7 @@
  * @param {number[]} nums
  * @return {number[][]}
  */
-var permute = function(nums) {
+var permute = (nums) => {
   let array = [];
 
   array.push([nums[0], nums[1], nums[2]]);
@@ -23,7 +23,7 @@ var permute = function(nums) {
  * @param {number[]} nums
  * @return {number[][]}
  */
-var permute = function(nums) {
+var permute = (nums) => {
   let array = [];
 
   for (let a = 0; a < nums.length; a++) {
@@ -58,7 +58,7 @@ var permute = function(nums) {
  * @param {number[]} nums
  * @return {number[][]}
  */
-var permute = function(nums) {
+var permute = (nums) => {
   let ret = [];
 
   for (let i = 0; i < nums.length; i = i + 1) {
@@ -81,7 +81,7 @@ var permute = function(nums) {
  * @param {number[]} nums
  * @return {number[][]}
  */
-var permute = function(nums) {
+var permute = (nums) => {
   let res = [[]];
 
   for (let i = 0; i < nums.length; i++) {

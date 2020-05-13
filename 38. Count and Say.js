@@ -17,7 +17,7 @@ const collection = [
  * @param {Number} n
  * @return {String}
  */
-var countAndSay = function(n) {
+var countAndSay = (n) => {
   const item = collection[n - 1];
   return (item !== undefined ? item.toString() : null);
 };
