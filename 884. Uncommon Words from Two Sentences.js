@@ -1,9 +1,15 @@
 /**
+ * 884. Uncommon Words from Two Sentences
+ *
+ * https://leetcode.com/problems/uncommon-words-from-two-sentences/
+ */
+
+/**
  * The almost one liner solution.
  *
- * @param {string} A
- * @param {string} B
- * @return {string[]}
+ * @param {String} A
+ * @param {String} B
+ * @return {String[]}
  */
 const uncommonFromSentences = (A, B) => {
   const concat = A.split(' ').concat(B.split(' '));
@@ -13,9 +19,9 @@ const uncommonFromSentences = (A, B) => {
 /**
  * The clear solution.
  *
- * @param {string} A
- * @param {string} B
- * @return {string[]}
+ * @param {String} A
+ * @param {String} B
+ * @return {String[]}
  */
 const uncommonFromSentences = (A, B) => {
   const splitA = A.split(' ');
@@ -30,9 +36,9 @@ const uncommonFromSentences = (A, B) => {
 /**
  * The clear solution.
  *
- * @param {string} A
- * @param {string} B
- * @return {string[]}
+ * @param {String} A
+ * @param {String} B
+ * @return {String[]}
  */
 const uncommonFromSentences = (A, B) => {
   const arrayA = A.split(' ');

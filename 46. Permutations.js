@@ -1,8 +1,8 @@
 /**
  * The brute force solution.
  *
- * @param {number[]} nums
- * @return {number[][]}
+ * @param {Number[]} nums
+ * @return {Number[][]}
  */
 var permute = (nums) => {
   let array = [];
@@ -20,8 +20,8 @@ var permute = (nums) => {
 /**
  * The modulus get it done solution.
  *
- * @param {number[]} nums
- * @return {number[][]}
+ * @param {Number[]} nums
+ * @return {Number[][]}
  */
 var permute = (nums) => {
   let array = [];
@@ -55,8 +55,8 @@ var permute = (nums) => {
 /**
  * The recursive solution.
  *
- * @param {number[]} nums
- * @return {number[][]}
+ * @param {Number[]} nums
+ * @return {Number[][]}
  */
 var permute = (nums) => {
   let ret = [];
@@ -78,8 +78,8 @@ var permute = (nums) => {
 /**
  * The shifting things around solution.
  *
- * @param {number[]} nums
- * @return {number[][]}
+ * @param {Number[]} nums
+ * @return {Number[][]}
  */
 var permute = (nums) => {
   let res = [[]];
